@@ -24,8 +24,6 @@ import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.GET
 import retrofit2.http.Query
 
-const val IN_QUALIFIER = "in:name,description"
-
 /**
  * Github API communication setup via Retrofit.
  */

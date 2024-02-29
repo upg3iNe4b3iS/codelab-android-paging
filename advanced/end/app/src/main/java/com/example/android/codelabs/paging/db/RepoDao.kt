@@ -37,5 +37,5 @@ interface RepoDao {
     fun reposByName(queryString: String): PagingSource<Int, Repo>
 
     @Query("DELETE FROM repos")
-    suspend fun clearRepos()
+    suspend fun clearRepos(): Int
 }
